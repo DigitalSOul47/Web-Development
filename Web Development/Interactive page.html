@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Interactive Page</title>
+</head>
+<h1>Enter your detalis to book your tour to India</h1>
+
+<body>
+  <form class="" action="mailto:anusrivastava181@gmail.com" method="post">
+
+    <label for="First Name">First Name</label>
+    <input type="text" name="" value="">
+    <label for="Last Name">Last Name</label>
+    <input type="text" name="" value=""><br> <br>
+    <label for="User Name">User Name</label>
+    <input type="text" id="User Name" name="" value="">
+    <label for="Password">Password</label>
+    <input type="password" name="" value=""> <br><br>
+    <label for="Email">Enter your Email</label>
+    <input type="Email" id="Email" name="" value=""> <br><br>
+    <label for="Phone">Enter Your Mobile Number</label>
+    <input type="tel" id="Phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required title="Enter Your 8 Digit Mobile Number" title="012-345-6789" No. value=""> <br><br>
+    <label for="Birthday">Enter your date of Birth</label>
+    <input type="date" id="Birthday" name="Birthday" value=""> <br><br <label for="datemin">Check-In date (after 2022-06-01)</label>
+    <input type="date" id="datemin" name="datemin" min="2022-06-01" value="2022-06-01">
+    <label for="datemax">Check-Out date (before 2022-12-31)</label>
+    <input type="date" id="datemax" name="datemax" min="2022-12-31" value="2022-12-31"> <br><br>
+    <label for="quantity"> No of Passengers</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="5" value=""> <br><br>
+    <p>Please Select your Prefered Transporation</p>
+    <input type="radio" id="Flight" name="Mode of Transporation" value="Flight">
+    <label for="Flight">Flight</label><br>
+    <input type="radio" id="Train" name="Mode of Transporation" value="Train">
+    <label for="Train">Train</label><br>
+    <input type="radio" id="Bus" name="Mode of Transporation" value="Bus">
+    <label for="Bus">Bus</label> <br> <br>
+    <label for="Message">Type Your Message here!!</label> <br>
+    <textarea name="message" rows="5" cols="50"></textarea> <br><br>
+    <input type="checkbox" id="News and updates" name="News and updates" value="News and updates">
+    <label for="checkbox">Click for News and updates</label> <br><br>
+    <input type="button" onclick="alert('Thank Your Visiting this Site')" name="" value="Click Me!"><br><br>
+    <label for="Security question">Security question</label>
+    <select class="Security question" name="Security question">
+      <option value="In what city or town was your first job? ">In what city or town was your first job? </option>
+      <option value="What is your mother’s maiden name?">What is your mother’s maiden name?</option>
+      <option value="What is your favorite movie? ">What is your favorite movie? </option>
+      <option value="What was your favorite sport in high school?">What was your favorite sport in high school?</option>
+    </select><br><br>
+
+    <input type="submit" name=""> <br><br </form>
+</body>
+
+</html>
